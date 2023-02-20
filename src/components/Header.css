@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    align-items: center;
+    padding: 19px;
+  }
+
+  .logo{
+    display: inline-block;
+    width: 31.31px;
+    object-fit: cover;
+    margin-right: 7px;
+  }
+
+  .header-title{
+    font-family: Karla;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    text-align: left;
+    color: #fff;    
+  }
