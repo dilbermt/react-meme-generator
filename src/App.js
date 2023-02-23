@@ -1,10 +1,16 @@
 import Header from './components/Header';
+import Meme from './components/Meme';
+import {useState} from 'react'
+
+
 import './App.css';
 
 function App() {
+  
   return (
     <div className="App">
       <Header/>
+      <Meme/>
     </div>
   );
 }
